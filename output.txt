@@ -1,0 +1,119 @@
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.540ms
+232
+total-down*2: 0.429ms
+230
+total-down*2 using .split: 0.290ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.841ms
+232
+total-down*2: 0.700ms
+230
+total-down*2 using .split: 0.547ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.637ms
+232
+total-down*2: 0.415ms
+230
+total-down*2 using .split: 0.291ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.566ms
+232
+total-down*2: 0.741ms
+230
+total-down*2 using .split: 0.284ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.554ms
+232
+total-down*2: 0.398ms
+230
+total-down*2 using .split: 0.584ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.916ms
+232
+total-down*2: 0.694ms
+230
+total-down*2 using .split: 0.538ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.848ms
+232
+total-down*2: 0.686ms
+230
+total-down*2 using .split: 0.548ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.907ms
+232
+total-down*2: 0.739ms
+230
+total-down*2 using .split: 0.554ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.595ms
+232
+total-down*2: 0.453ms
+230
+total-down*2 using .split: 0.294ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 5.101ms
+232
+total-down*2: 0.726ms
+230
+total-down*2 using .split: 0.552ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.046ms
+232
+total-down*2: 0.408ms
+230
+total-down*2 using .split: 0.289ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 3.976ms
+232
+total-down*2: 0.384ms
+230
+total-down*2 using .split: 0.252ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.849ms
+232
+total-down*2: 0.684ms
+230
+total-down*2 using .split: 0.541ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 3.966ms
+232
+total-down*2: 0.733ms
+230
+total-down*2 using .split: 0.635ms
+
+D:\projects\Challenge 4>node "Challenge 4.js"
+232
+up-down: 4.630ms
+232
+total-down*2: 0.466ms
+230
+total-down*2 using .split: 0.593ms
