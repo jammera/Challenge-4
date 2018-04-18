@@ -23,15 +23,4 @@ const callback = (data) => {
 	console.time('total-down*2 using .split');
 	console.log(data.length - data.split(')').length*2);
 	console.timeEnd('total-down*2 using .split');
-
-	// ver 4 - not working
-	/*console.time('using reduce');
-	console.log(data.length - 
-	data.reduce((acc, point) => {
-		if(point === ')')
-			return acc++;
-	},0)
-	);
-	console.timeEnd('using reduce');
-	*/
 }
