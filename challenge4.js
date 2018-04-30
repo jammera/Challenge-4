@@ -9,18 +9,22 @@ fs.readFile('input.txt', (err, data) => {
 })
 
 const callback = (data) => {
-	// ver 1 - dummy 
-	console.time('up-down');
-	console.log(data.match(/\(/gi).length - data.match(/\)/gi).length);
-	console.timeEnd('up-down');
-
-	// ver 2
-	console.time('total-down*2');
-	console.log(data.length-data.match(/\)/gi).length*2);
-	console.timeEnd('total-down*2');
-
-	// ver 3
-	console.time('total-down*2 using .split');
+	// 1st part
+	console.time('endfloor');
 	console.log(data.length - data.split(')').length*2);
-	console.timeEnd('total-down*2 using .split');
+	console.timeEnd('endfloor');
+	
+	// 2nd part
+	console.time('basement');
+	var floor = 0;
+	for(var i in data) {
+		if(floor === -1) {
+			console.log(i);
+			break;
+		}else if(data[i] === '(')
+			floor+=1;
+		else
+			floor-=1;
+	}
+	console.timeEnd('basement');
 }
